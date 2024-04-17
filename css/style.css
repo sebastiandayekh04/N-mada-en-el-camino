@@ -9,9 +9,6 @@ body {
     justify-content: space-around;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-  
-
-
 }  
 .menu-header2 {
   display: flex-end;
