@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Real Madrid Champions Podcast</title>
+        <link>http://www.ejemplo.com</link>
+        <description>Podcast sobre los triunfos del Real Madrid en la Liga de Campeones</description>
+        
+        //podcast 1
+        <item>
+            <title>Real Madrid Campeón de la Champions 2022</title>
+            <link>http://www.ejemplo.com/podcast/episodio1</link>
+            <description>¡El Real Madrid se corona campeón de la Champions League 2022!</description>
+            <enclosure url="http://www.ejemplo.com/podcast/episodio1.mp3" length="123456" type="audio/mpeg" />
+        </item>
+        
+        //podcast 2
+        <item>
+            <title>Triunfo del Real Madrid en la Champions 2018</title>
+            <link>http://www.ejemplo.com/podcast/episodio2</link>
+            <description>El Real Madrid se alza como campeón de Europa en la temporada 2018.</description>
+            <enclosure url="mp3/" length="123456" type="audio/mpeg" />
+        </item>
+        
+        //podcast 3
+        <item>
+            <title>Triunfo del Real Madrid en la Champions 2016</title>
+            <link>http://www.ejemplo.com/podcast/episodio3</link>
+            <description>El Real Madrid se corona campeón de Europa en el año 2016.</description>
+            <enclosure url="http://www.ejemplo.com/podcast/episodio3.mp3" length="123456" type="audio/mpeg" />
+        </item>
+
+        //podcast 4
+        <item>
+            <title>Triunfo del Real Madrid en la Champions 2014</title>
+            <link>http://www.ejemplo.com/podcast/episodio4</link>
+            <description>El Real Madrid se corona campeón de Europa en el año 2014.</description>
+            <enclosure url="http://www.ejemplo.com/podcast/episodio4.mp3" length="123456" type="audio/mpeg" />
+        </item>
+    </channel>
+</rss>

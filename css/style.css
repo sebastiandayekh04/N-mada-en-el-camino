@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(50, 78, 52);
+    font-family: sans-serif;
+}
+
+.menu-header ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  
+
+
+}  
+.menu-header2 {
+  display: flex-end;
+}
+  .logo img{
+    height: 230px; 
+    margin: 20px;
+    font-size: large; 
+    float: left;
+  }
+  
+
+  .menu-header li  {
+    list-style: none;
+
+  }
+  .menu-header a {
+    text-decoration: none ;
+  }
+  
+  .menu-header li a{
+    display: flex;
+    margin-right: 20px; 
+    color: black;
+      
+    float: right;
+  }
+  
+  .imagenes {
+    height: 230px; 
+    margin: 20px;
+    display: flex;
+    
+  }

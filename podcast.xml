@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Podcast xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="esquema_podcast.xsd">
+    <posts>
+        <post titulo="Real Madrid Campeón de la Champions 2024" fecha="2024-04-10">
+            <introduccion>¡El Real Madrid se corona campeón de la Champions League 2024!</introduccion>
+            <autor>
+                <nombre>Jude Bellingham</nombre>
+                <avatar>avatar_benzema.png</avatar>
+            </autor>
+            <descripcion>Repaso de la emocionante final y el camino del Real Madrid hacia la gloria.</descripcion>
+            <tiempo_lectura>5</tiempo_lectura>
+            <num_visualizaciones>1000</num_visualizaciones>
+            <num_comentarios>200</num_comentarios>
+            <num_megusta>500</num_megusta>
+            <imagen>imagen_champions2024.jpg</imagen>
+        </post>
+        <post titulo="Triunfo del Real Madrid en la Champions 2022" fecha="2024-04-09">
+            <introduccion>El Real Madrid se alza como campeón de Europa en la temporada 2022.</introduccion>
+            <autor>
+                <nombre>Sergio Ramos</nombre>
+                <avatar>avatar_ramos.png</avatar>
+            </autor>
+            <descripcion>Detalles sobre la actuación del equipo y los momentos más destacados del torneo.</descripcion>
+            <tiempo_lectura>8</tiempo_lectura>
+            <num_visualizaciones>1500</num_visualizaciones>
+            <num_comentarios>300</num_comentarios>
+            <num_megusta>700</num_megusta>
+            <imagen>imagen_champions2022.jpg</imagen>
+        </post>
+        <post titulo="Triunfo del Real Madrid en la Champions 2017" fecha="2024-04-08">
+            <introduccion>El Real Madrid se corona campeón de Europa en el año 2017.</introduccion>
+            <autor>
+                <nombre>Toni Kroos</nombre>
+                <avatar>avatar_kroos.png</avatar>
+            </autor>
+            <descripcion>Un repaso completo de la victoria del Real Madrid en la final de la Champions 2017.</descripcion>
+            <tiempo_lectura>6</tiempo_lectura>
+            <num_visualizaciones>1200</num_visualizaciones>
+            <num_comentarios>250</num_comentarios>
+            <num_megusta>600</num_megusta>
+            <imagen>imagen_champions2017.jpg</imagen>
+        </post>
+        <post titulo="Éxito del Real Madrid en la Champions 2018" fecha="2024-04-07">
+            <introduccion>El Real Madrid conquista la Liga de Campeones en el año 2018.</introduccion>
+            <autor>
+                <nombre>Gareth Bale</nombre>
+                <avatar>avatar_bale.png</avatar>
+            </autor>
+            <descripcion>Detalles sobre la histórica victoria del Real Madrid en Kiev.</descripcion>
+            <tiempo_lectura>7</tiempo_lectura>
+            <num_visualizaciones>1300</num_visualizaciones>
+            <num_comentarios>280</num_comentarios>
+            <num_megusta>650</num_megusta>
+            <imagen>imagen_champions2018.jpg</imagen>
+        </post>
+        <post titulo="El Real Madrid se alza con la Champions 2016" fecha="2024-04-06">
+            <introduccion>El Real Madrid consigue la victoria en la Champions League del año 2016.</introduccion>
+            <autor>
+                <nombre>Cristiano Ronaldo</nombre>
+                <avatar>avatar_ronaldo.png</avatar>
+            </autor>
+            <descripcion>Un recuento emocionante de la hazaña del Real Madrid en Milán.</descripcion>
+            <tiempo_lectura>4</tiempo_lectura>
+            <num_visualizaciones>900</num_visualizaciones>
+            <num_comentarios>180</num_comentarios>
+            <num_megusta>450</num_megusta>
+            <imagen>imagen_champions2016.jpg</imagen>
+        </post>
+    </posts>
+</Podcast>
