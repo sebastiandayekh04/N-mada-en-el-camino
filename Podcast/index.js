@@ -1,42 +1,39 @@
+console.log("prueba");
 
-console.log("Hola");
-
-
-fetch("bd.xml")
-  .then(response => response.text()) 
-  .then(data => { 
-    
+fetch("podcast.xml")
+  .then((response) => response.text())
+  .then((data) => {
     const parser = new DOMParser();
     const xml = parser.parseFromString(data, "application/xml");
 
-    
     const posts = xml.querySelectorAll("post");
 
-    
-    let tarjetas = '';
+    let tarjetas = "";
+    for (let i = 0; i < posts.length; i++) {
+      let post = posts[i];
+      let titulo = post.getAttribute("titulo");
+      let fecha = post.getAttribute("fecha");
+      let introduccion = post.querySelector("introduccion").textContent;
+      let autor = post.querySelector("autor");
+      let nombre = autor.querySelector("nombre").textContent;
+      let avatar = autor.querySelector("avatar").textContent;
+      //let autorNombre = post.querySelector("autor nombre").textContent;
+      let tiempoLectura = post.querySelector("tiempo_lectura").textContent;
+      let numVisualizaciones = post.querySelector(
+        "num_visualizaciones"
+      ).textContent;
+      let numComentarios = post.querySelector("num_comentarios").textContent;
+      let numMegusta = post.querySelector("num_megusta").textContent;
+      let imagen = post.querySelector("imagen").textContent;
 
-    
-    posts.forEach(post => {
-       
-        let titulo = post.getAttribute("titulo");
-        let fecha = post.getAttribute("fecha");
-        let introduccion = post.querySelector("introduccion").textContent;
-        let autorNombre = post.querySelector("autor nombre").textContent;
-        let tiempoLectura = post.querySelector("tiempo_lectura").textContent;
-        let numVisualizaciones = post.querySelector("num_visualizaciones").textContent;
-        let numComentarios = post.querySelector("num_comentarios").textContent;
-        let numMegusta = post.querySelector("num_megusta").textContent;
-        let imagen = post.querySelector("imagen").textContent;
-        
-        
-        const tarjeta = `
+      const tarjeta = `
             <div class="sub-cuadros">
                 <img class="imagen-cuadro" src="imagenes/${imagen}" alt="${titulo}" />
                 <div class="cuadros-cont">
                     <div class="cuadros-fecha">
-                        <div class="perfil"><i class="fa-solid fa-user"></i></div>
+                        <div class="perfil"><img src="imagenes/${avatar}"/></div>
                         <div>
-                            <div>${autorNombre}</div>
+                            <div>${nombre}</div>
                             <div>${fecha} · ${tiempoLectura} min</div>
                         </div>
                         <div class="botones-verticales"><i class="fa-solid fa-ellipsis-vertical"></i></div>
@@ -52,11 +49,9 @@ fetch("bd.xml")
                 </div>
             </div>
         `;
-        
-        
-        tarjetas += tarjeta;
-    });
-    
-    
-    document.querySelector('.cuadros').innerHTML = tarjetas;
+
+      tarjetas += tarjeta;
+    }
+
+    document.querySelector(".cuadros").innerHTML = tarjetas;
   });
