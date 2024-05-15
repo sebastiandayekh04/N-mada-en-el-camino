@@ -57,8 +57,8 @@ body {
   width: 80%;
   margin: 0 auto;
 }
-.imagen-cuadros a{
-  width: 100%; //esto
+.imagen-cuadros a {
+  width: 100%;
 }
 
 .sub-cuadros {
@@ -72,8 +72,13 @@ body {
   margin-right: 10px;
 }
 
+.perfil img {
+  width: 35px;
+  height: 40px;
+}
+
 .imagen-cuadro {
-  width: 40%; //esto
+  width: 40%;
 }
 
 .cuadros-cont {
@@ -124,129 +129,126 @@ body {
   font-weight: bold;
   margin-left: 5px;
 }
-    
+
 .sobre-mi {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-
-  }
-  .sobre-mi img{
-      width: 200px;
-  }
-
-  .texto {
-    flex: 1;
-    padding: 20px;
-    margin-right: 20px;
-  }
-  .imagen {
-    flex: 1;
-  }
-  .titulo span{
-    font-size: 40px;
-    font-weight: bold;
-    color: rgb(197, 223, 197);
-    background-color: black;
-    padding: 10px;    
-  }
-  .titulo{
-    padding-bottom: 30px;
-  }
-
-  .nosotros-main{
-    width: 80%;
-    margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.sobre-mi img {
+  width: 200px;
 }
 
-  .parrafo {
-    font-size: 16px;
-    margin-top: 10px;
-  }
-  .contactame {
-    color: black;
-    text-decoration: none;
-    font-weight: bold; 
-    margin-top: 20px;
-    display: inline-block;
-    border:  2px solid black;
-    font-size: 20px;
-    padding: 15px ;
-  }
+.texto {
+  flex: 1;
+  padding: 20px;
+  margin-right: 20px;
+}
+.imagen {
+  flex: 1;
+}
+.titulo span {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(197, 223, 197);
+  background-color: black;
+  padding: 10px;
+}
+.titulo {
+  padding-bottom: 30px;
+}
 
-    
-  .contacto {
-    max-width: 62%;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 8px; 
+.nosotros-main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.parrafo {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.contactame {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  display: inline-block;
+  border: 2px solid black;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.contacto {
+  max-width: 62%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
 }
 .contacto-titulo {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: left;
-    margin-bottom: 20px;
-    padding-bottom: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 20px;
+  padding-bottom: 25px;
 }
 .textocont {
-    text-align: left;
-    margin-bottom: 20px;
-    font-size: 17px;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 17px;
 }
 input[type="text"],
 input[type="email"],
 input[type="tel"],
-
 textarea {
-width: 100%;
-padding: 10px;
-margin-bottom: 10px;
-border: 1px solid black;
-border-radius: 4px; 
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
 }
 
 .contacto-titulo span {
-    font-weight: bold;
-    color: rgb(197, 223, 197);
-    background-color: black;
-    padding: 7px;  
+  font-weight: bold;
+  color: rgb(197, 223, 197);
+  background-color: black;
+  padding: 7px;
 }
 
 .boton {
-width: 100%;
-padding: 10px;
-background-color: rgb(197, 223, 197);;
-border: none;
-border-radius: 4px; 
-cursor: pointer;
-text-align: right;
-display: flex;
-justify-content: flex-end;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(197, 223, 197);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 .boton:hover {
-background-color:rgb(197, 223, 197);; 
+  background-color: rgb(197, 223, 197);
 }
 
 .foot {
-    width: 80%;
-    margin: 0 auto;
-    display:flex;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
 }
-.derechos{
-    width: 70%;
+.derechos {
+  width: 70%;
 }
 .redes {
-    display:flex;
-    width: 30%;
+  display: flex;
+  width: 30%;
 }
-.redes-izquierda{
-    width: 100%;
-    text-align: right;
+.redes-izquierda {
+  width: 100%;
+  text-align: right;
 }
-.redes-color{
-    color: #000;
+.redes-color {
+  color: #000;
 }
 .derechos a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
